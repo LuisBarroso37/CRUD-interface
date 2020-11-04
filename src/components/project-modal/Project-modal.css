@@ -1,0 +1,78 @@
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 500px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+  padding: 0px 20px 20px 20px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  height: 28px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.modal-close {
+  color: #bfbfbf;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #a6a6a6;
+}
+
+.input {
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  margin: 25px 0;
+}
+
+::placeholder,
+.dropdown {
+  color: rgba(0, 0, 0, 0.32);
+}
+
+.input-label {
+  font-size: 16px;
+  margin-bottom: -15px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background: #009eff;
+  border: 1px solid #009eff;
+  border-radius: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  float: right;
+}
+
+.submit-button:hover {
+  background: #4dbbff;
+  border: 1px solid #4dbbff;
+}
