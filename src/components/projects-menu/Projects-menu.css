@@ -28,11 +28,16 @@
   cursor: pointer;
 }
 
+.projects-content {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
 .project {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 25px;
+  padding: 0 10px 0px 25px;
 }
 
 .project-info {
@@ -55,11 +60,12 @@
 .icons {
   display: flex;
   justify-content: space-evenly;
-  width: 25%;
+  width: 30%;
 }
 
 .crud-icon {
   color: rgba(0, 0, 0, 0.64);
+  font-size: 20px;
   width: 100%;
   cursor: pointer;
 }

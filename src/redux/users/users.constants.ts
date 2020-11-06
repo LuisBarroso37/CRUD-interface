@@ -1,0 +1,4 @@
+const SET_SEARCH_FIELD: string = 'SET_SEARCH_FIELD';
+const TOGGLE_BUTTON: string = 'TOGGLE_BUTTON';
+
+export { SET_SEARCH_FIELD, TOGGLE_BUTTON };

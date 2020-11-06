@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects Menu component testing expect to render ProjectMenu component 1`] = `ShallowWrapper {}`;

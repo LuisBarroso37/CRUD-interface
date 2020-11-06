@@ -1,0 +1,94 @@
+.users-content {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.user-icon {
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: -10px;
+}
+
+.user-email {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.remove-user {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #009eff;
+  cursor: pointer;
+}
+
+.remove-user:hover {
+  color: #4dbbff;
+}
+
+.add-users-button {
+  display: block;
+  padding: 10px 15px;
+  background: #009eff;
+  border: 1px solid #009eff;
+  border-radius: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.add-users-button:hover {
+  background: #4dbbff;
+  border: 1px solid #4dbbff;
+}
+
+.input {
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  margin: 25px 0;
+}
+
+.searched-users {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.invite-user:hover {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
